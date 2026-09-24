@@ -6,7 +6,7 @@ This repository is a Python + pytest + `requests` API test project (no Playwrigh
 
 - Working directory: repository root.
 - Install dependencies: `pip install -r requirements.txt`
-- Run all tests: `pytest`
+- Run all tests: `pytest -v` (verbose output is the default for this project)
 - Run one test: `pytest tests/test_reqres_users.py -v`
 - Discover tests without running them: `pytest --collect-only -q`
   - Qure's `qure_pytest.collect_only` discovery plugin is not installed in this
